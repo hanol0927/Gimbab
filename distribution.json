@@ -1,0 +1,948 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "Gimbab-1.20.1",
+      "name": "김밥월드",
+      "description": "Gimbab Running Minecraft 1.20.1 (Forge v47.4.10)",
+      "icon": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/Icon.png",
+      "version": "1.0.0",
+      "address": "kimbapz.kro.kr",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.10",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7398,
+            "MD5": "39c68f8be018557068512f16cf3f97fa",
+            "url": "https://hanol0927.github.io/Gimbab/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.10/lowcodelanguage-1.20.1-47.4.10.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.4.10",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16554,
+                "MD5": "eede38b0c090f69c7789cd35e753853d",
+                "url": "https://hanol0927.github.io/Gimbab/repo/versions/1.20.1-forge-47.4.10/1.20.1-forge-47.4.10.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.10",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118913,
+                "MD5": "340eb6124a32dab3bfaea8f1b2f3dd02",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.10/fmlcore-1.20.1-47.4.10.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.10",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16854,
+                "MD5": "1193446859d078e83d9fcc4d8a39f44d",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.10/javafmllanguage-1.20.1-47.4.10.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.10",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4999,
+                "MD5": "13e469f44fc6fff975688c6b18f8e9a1",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.10/mclanguage-1.20.1-47.4.10.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.10:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2777708,
+                "MD5": "f202df135ad32fef7e7c42e957c142af",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.10:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4848366,
+                "MD5": "5c4d8867f3152f9c397859436a06321c",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.8",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126113,
+                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73498,
+                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94559,
+                "MD5": "62498ef324bdab15f407d703f7d78d19",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35151,
+                "MD5": "3d63508405f5610fc2ea673ff5471553",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.2.4",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 31872,
+                "MD5": "5295505357ba9b98450c5e3121f82191",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.10",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 267079,
+                "MD5": "9446521da84ab53aa7a81af82d4e854a",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.10/fmlloader-1.20.1-47.4.10.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.10",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170518,
+                "MD5": "828cdcc361baffcdd38d7b7d05c62e35",
+                "url": "https://hanol0927.github.io/Gimbab/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.10/fmlearlydisplay-1.20.1-47.4.10.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.rolfmao:additionaltrims:1.20.1-1.0.0.2-release@jar",
+          "name": "Additional Trims",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 59012,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/additionaltrims-1.20.1-1.0.0.2-release.jar",
+            "MD5": "d432908e2e65d43de98a755b9ee7e1c5"
+          }
+        },
+        {
+          "id": "com.builtbroken.ai.improvements:aiimprovements:0.5.2@jar",
+          "name": "AI-Improvements",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 29553,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/AI-Improvements-1.20-0.5.2.jar",
+            "MD5": "9a6776ce2deab597d198e8755daa56ff"
+          }
+        },
+        {
+          "id": "moe.plushie.armourers_workshop.compatibility:armourers_workshop:3.2.4-beta@jar",
+          "name": "Armourer's Workshop",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5893274,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/armourersworkshop-forge-1.20.1-3.2.4-beta.jar",
+            "MD5": "cb21ad7edc7bf2552618797d7a76a1d3"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.furniture:cfm:7.0.0-pre36@jar",
+          "name": "MrCrayfish's Furniture Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2613393,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/cfm-forge-1.20.1-7.0.0-pre36.jar",
+            "MD5": "faf78627dad9c9c04e7a4fa8992c54dc"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth_config:11.1.136@jar",
+          "name": "Cloth Config v10 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1181413,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/cloth-config-11.1.136-forge.jar",
+            "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53"
+          }
+        },
+        {
+          "id": "com.blamejared:clumps:12.0.0.4@jar",
+          "name": "Clumps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20299,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/Clumps-forge-1.20.1-12.0.0.4.jar",
+            "MD5": "c9efc71827df6ab51e8dd0e40c3d4975"
+          }
+        },
+        {
+          "id": "lekavar.lma:drinkbeer:1.0.5@jar",
+          "name": "Drink Beer Refill",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1520963,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/drinkbeer-refill-1.20.1-1.0.5.jar",
+            "MD5": "700a9178b07fc018fe3d60b20259f57e"
+          }
+        },
+        {
+          "id": "atomicstryker.dynamiclights.server:dynamiclights:1.20.1.2@jar",
+          "name": "Dynamic Lights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 49564,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/dynamiclights-1.20.1.2.jar",
+            "MD5": "8ddb1fdf345c919ea74e55c50aa39a55"
+          }
+        },
+        {
+          "id": "xyz.vsngamer:elevatorid:1.20.1-1.9.1-forge@jar",
+          "name": "Elevator Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 187868,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/elevatorid-1.20.1-1.9.1-forge.jar",
+            "MD5": "b4784b8ae695f179d0aefaaa82018968"
+          }
+        },
+        {
+          "id": "io.github.kosmx.emotes:emotecraft:2.2.7-b.build.50@jar",
+          "name": "Emotecraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 680255,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar",
+            "MD5": "636c62379cd7c5201a70fd457808e331"
+          }
+        },
+        {
+          "id": "com.teamremastered:endrem:5.3.3-R-1.20.1@jar",
+          "name": "End Remastered",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 889634,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/endrem_forge-5.3.3-R-1.20.1.jar",
+            "MD5": "1de1aa97b353be8fe243f3a60cfc902e"
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:3.0.1@jar",
+          "name": "Entity Model Features",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 657484,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/entity_model_features_1.20.1-forge-3.0.1.jar",
+            "MD5": "9389de85f96d0a97953c74faab9c4d60"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:7.0.2@jar",
+          "name": "Entity Texture Features",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 894117,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/entity_texture_features_1.20.1-forge-7.0.2.jar",
+            "MD5": "1b13a36cd9ba7686d997a99001226373"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.8.2@jar",
+          "name": "EntityCulling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 478568,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/entityculling-forge-1.8.2-mc1.20.1.jar",
+            "MD5": "27a0e6445bca14ddd3bfc7c28a0b2077"
+          }
+        },
+        {
+          "id": "vectorwing.farmersdelight:farmersdelight:1.20.1-1.2.9@jar",
+          "name": "Farmer's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2978080,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/FarmersDelight-1.20.1-1.2.9.jar",
+            "MD5": "71e177a98e0e6f399761ad00e978d177"
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:6.0.1@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 123034,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/ferritecore-6.0.1-forge.jar",
+            "MD5": "f52f538207a4829d7060550092ce2383"
+          }
+        },
+        {
+          "id": "com.craftix:medievalend:1.0.1@jar",
+          "name": "Medieval Buildings [The End Edition]",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 169369,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/forge-medievalend-1.0.1.jar",
+            "MD5": "11cd1514ba0089c4ed35927e3a4c7e6a"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:framework:0.7.15@jar",
+          "name": "Framework",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 309560,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/framework-forge-1.20.1-0.7.15.jar",
+            "MD5": "135716c910b1036a6dd2f0fe0bc7b03d"
+          }
+        },
+        {
+          "id": "glitchcore:glitchcore:0.0.1.1@jar",
+          "name": "GlitchCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 87550,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/GlitchCore-forge-1.20.1-0.0.1.1.jar",
+            "MD5": "6d24b09db12acdab40437a1929259352"
+          }
+        },
+        {
+          "id": "dlovin.inventoryhud:inventoryhud:3.4.26@jar",
+          "name": "Inventory HUD+",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 238088,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/inventoryhud.forge.1.20.1-3.4.26.jar",
+            "MD5": "e1d1380697c2417cfaf6fdd42982a4d0"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:11.13.2+forge@jar",
+          "name": "Jade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 552486,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/Jade-1.20.1-Forge-11.13.2.jar",
+            "MD5": "7c349670f77fd64b9e9854c4a8d82fcc"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.20.0.116@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1387236,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/jei-1.20.1-forge-15.20.0.116.jar",
+            "MD5": "89817a7201d47a7a23c3f9d217f891f4"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.10.3@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7160405,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/journeymap-1.20.1-5.10.3-forge.jar",
+            "MD5": "2181bd6b7161f06726560b9382235611"
+          }
+        },
+        {
+          "id": "com.legacy.lucent.core:lucent:1.5.5@jar",
+          "name": "Lucent",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 225245,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/lucent-1.20.1-1.5.5.jar",
+            "MD5": "a2f8fc76c04702bec8307b9c9c4b021d"
+          }
+        },
+        {
+          "id": "com.cookiecraftmods:mdm:25.6.1@jar",
+          "name": "ModernDecorMod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1887267,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/mdm-25.6.1-forge-1.20.1.jar",
+            "MD5": "8b89d89cad3176422a953a7f0d1f89c6"
+          }
+        },
+        {
+          "id": "com.craftix:medieval_nether:1.0.0@jar",
+          "name": "Medieval Buildings [The Nether Edition]",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 723148,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/medieval_buildings_nether_edition-1.20.1-1.0.0-forge.jar",
+            "MD5": "f22970d096df6fd361c8cb6df871daa2"
+          }
+        },
+        {
+          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.24.4+mc1.20.1@jar",
+          "name": "ModernFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 880557,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/modernfix-forge-5.24.4+mc1.20.1.jar",
+            "MD5": "1d729a283f14fdbf1021ff4f0c88b0ec"
+          }
+        },
+        {
+          "id": "net.coderbot.iris:oculus:1.6.4@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2849391,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/oculus-mc1.20-1.6.4.jar",
+            "MD5": "5a5931227b842d89f2ace93625b22739"
+          }
+        },
+        {
+          "id": "com.tiviacz:pizzacraft:7.0.8@jar",
+          "name": "PizzaCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 539247,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/pizzacraft-1.20.1-7.0.8.jar",
+            "MD5": "5a04b143d6dfb760a39f7d91c05c2d02"
+          }
+        },
+        {
+          "id": "dev.kosmx.playeranim:playeranimator:1.0.2-rc1+1.20@jar",
+          "name": "Player Animator",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 181437,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+            "MD5": "46f8554181d4d240075ea4919d01fd01"
+          }
+        },
+        {
+          "id": "net.mcreator.realmrpgskeletons:realmrpg_skeletons:1.1.0@jar",
+          "name": "Realm RPG: Fallen Adventurers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 652022,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/realmrpg_skeletons-1.1.0-forge-1.20.1.jar",
+            "MD5": "39a9a0fbe5cba2765f46090dc0c245b8"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:rubidium:0.6.5@jar",
+          "name": "Rubidium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 605877,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/rubidium-0.6.5.jar",
+            "MD5": "a452efa401ac9ec14d7232243ee4f3fd"
+          }
+        },
+        {
+          "id": "com.zephaniahnoah:shulkertooltip:1.13.1@jar",
+          "name": "Shulker Tooltip",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11801,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/ShulkerTooltip-1.13.1.jar",
+            "MD5": "ae56087a109622d0f68a91bd57b939e8"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedbackpacks:3.24.8.1381@jar",
+          "name": "Sophisticated Backpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 970952,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/sophisticatedbackpacks-1.20.1-3.24.8.1381.jar",
+            "MD5": "d4d041a03b86582d47b14935a51e18c0"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedcore:1.2.95.1174@jar",
+          "name": "Sophisticated Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1390817,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/sophisticatedcore-1.20.1-1.2.95.1174.jar",
+            "MD5": "f615af3bacf2d19788c46f37b8646bcd"
+          }
+        },
+        {
+          "id": "com.rolfmao:upgradedadditionaltrims:1.20.1-1.0.0.4-release@jar",
+          "name": "Upgraded Additional Trims",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21738,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/upgradedadditionaltrims-1.20.1-1.0.0.4-release.jar",
+            "MD5": "779a14e810b2529dd509abf66bce058c"
+          }
+        },
+        {
+          "id": "com.rolfmao:upgradedcore:1.20.1-5.0.0.2-release@jar",
+          "name": "Upgraded Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 42011,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/upgradedcore-1.20.1-5.0.0.2-release.jar",
+            "MD5": "cb8af02a21e502d87c92c7e88a666c49"
+          }
+        },
+        {
+          "id": "com.rolfmao:upgradedtrims:1.20.1-1.0.0.4-release@jar",
+          "name": "Upgraded Trims",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 27156,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/upgradedtrims-1.20.1-1.0.0.4-release.jar",
+            "MD5": "138ef4a13acbde2dd0816142564f6ffe"
+          }
+        },
+        {
+          "id": "com.laidbacksloth:wso16:1.1@jar",
+          "name": "Why stacks of 16?",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 49186,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/wso16-forge-1.1.jar",
+            "MD5": "44b47ffde66d74d4eacc62c6e29af765"
+          }
+        },
+        {
+          "id": "net.norevy.zoom:zoomify:1.1.0@jar",
+          "name": "Zoomify",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18453,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/forgemods/required/zoomify-1.20.x-1.1.jar",
+            "MD5": "bde330895f19783b7990a264e60ddc90"
+          }
+        },
+        {
+          "id": "antixray-forge-1.4.6+1.20.1.jar",
+          "name": "antixray-forge-1.4.6+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 303801,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/files/mods/antixray-forge-1.4.6+1.20.1.jar",
+            "MD5": "228f280f161eee95e583f188c52bd000",
+            "path": "mods/antixray-forge-1.4.6+1.20.1.jar"
+          }
+        },
+        {
+          "id": "Aquaculture-1.20.1-2.5.5.jar",
+          "name": "Aquaculture-1.20.1-2.5.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 585095,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/files/mods/Aquaculture-1.20.1-2.5.5.jar",
+            "MD5": "9654bb83ec18c553cef874b38c03edc1",
+            "path": "mods/Aquaculture-1.20.1-2.5.5.jar"
+          }
+        },
+        {
+          "id": "BiomesOPlenty-forge-1.20.1-19.0.0.96.jar",
+          "name": "BiomesOPlenty-forge-1.20.1-19.0.0.96.jar",
+          "type": "File",
+          "artifact": {
+            "size": 22381010,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/files/mods/BiomesOPlenty-forge-1.20.1-19.0.0.96.jar",
+            "MD5": "1b20a91a2b013ccad6cd56279a459b12",
+            "path": "mods/BiomesOPlenty-forge-1.20.1-19.0.0.96.jar"
+          }
+        },
+        {
+          "id": "camera-forge-1.20.1-1.0.20.jar",
+          "name": "camera-forge-1.20.1-1.0.20.jar",
+          "type": "File",
+          "artifact": {
+            "size": 299727,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/files/mods/camera-forge-1.20.1-1.0.20.jar",
+            "MD5": "2974de2c633178ea632406ab5bede5bd",
+            "path": "mods/camera-forge-1.20.1-1.0.20.jar"
+          }
+        },
+        {
+          "id": "caramelChat-mc1.20.1-forge-1.2.2.jar",
+          "name": "caramelChat-mc1.20.1-forge-1.2.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 349040,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/files/mods/caramelChat-mc1.20.1-forge-1.2.2.jar",
+            "MD5": "900ae1599e3aa619e1669907fd5033ec",
+            "path": "mods/caramelChat-mc1.20.1-forge-1.2.2.jar"
+          }
+        },
+        {
+          "id": "memoryleakfix-forge-1.17+-1.1.5.jar",
+          "name": "memoryleakfix-forge-1.17+-1.1.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 227925,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/files/mods/memoryleakfix-forge-1.17+-1.1.5.jar",
+            "MD5": "5dd9149414ca375ceab146242c6e84ab",
+            "path": "mods/memoryleakfix-forge-1.17+-1.1.5.jar"
+          }
+        },
+        {
+          "id": "TerraBlender-forge-1.20.1-3.0.1.10.jar",
+          "name": "TerraBlender-forge-1.20.1-3.0.1.10.jar",
+          "type": "File",
+          "artifact": {
+            "size": 107533,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/files/mods/TerraBlender-forge-1.20.1-3.0.1.10.jar",
+            "MD5": "1f88ad1b2e0d196f0caf7c03a4abf893",
+            "path": "mods/TerraBlender-forge-1.20.1-3.0.1.10.jar"
+          }
+        },
+        {
+          "id": "voicechat-forge-1.20.1-2.6.4.jar",
+          "name": "voicechat-forge-1.20.1-2.6.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 4888421,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/files/mods/voicechat-forge-1.20.1-2.6.4.jar",
+            "MD5": "d363fc0aedbe77fa4c180fa70079009d",
+            "path": "mods/voicechat-forge-1.20.1-2.6.4.jar"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.6.1.zip",
+          "name": "ComplementaryUnbound_r5.6.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 500699,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/files/resourcepacks/ComplementaryUnbound_r5.6.1.zip",
+            "MD5": "3f83f81df2ad4608d830017425b45bac",
+            "path": "resourcepacks/ComplementaryUnbound_r5.6.1.zip"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 94,
+            "url": "https://hanol0927.github.io/Gimbab/servers/Gimbab-1.20.1/files/servers.dat",
+            "MD5": "a9db5db9fcc83bc2eb2ecc29b63364b4",
+            "path": "servers.dat"
+          }
+        }
+      ]
+    }
+  ]
+}
